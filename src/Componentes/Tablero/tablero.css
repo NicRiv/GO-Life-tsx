@@ -1,0 +1,26 @@
+.Tablero {
+    padding: 15px;
+    border: 1px solid blue;
+	background: ghostwhite;
+}
+
+.Tablero-cont {
+	display: grid;
+	border-top: 1px solid white;
+	border-left: 1px solid white;
+    box-shadow: 5px 5px 10px rgba(200,200,200, 1);
+}
+
+.Celda {
+	min-width: 20px;
+	min-height: 20px;
+	background: rgb(230, 238, 245);
+	border-right: .1px solid white;
+	border-bottom: .1px solid white;
+	transition: background .1s ease-in-out;
+	cursor: pointer;
+}
+
+.Celda:hover {
+	background: rgb(236, 252, 255);
+}

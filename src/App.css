@@ -1,0 +1,18 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: aliceblue;
+	font-family: 'Open Sans', cursive;
+}
+
+.App {
+	min-height: 100vh; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
