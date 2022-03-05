@@ -22,9 +22,9 @@ const Tablero: React.FC = () => {
 	// Asignacion de valores
 	const tableroVacio: ()=>number[][] = () => {
 		const filas: number[][] = []
-			for (let i = 0; i < tamañoFil; i++) {
-				filas.push(Array.from(Array(tamañoCol), () => 0))
-			}
+		for (let i = 0; i < tamañoFil; i++) {
+			filas.push(Array.from(Array(tamañoCol), () => 0))
+		}
 		return filas
 	}
 
