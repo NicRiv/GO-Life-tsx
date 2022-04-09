@@ -10,7 +10,7 @@ import './tablero.css'
 
 // Evaluacion de celulas vecinas
 const evaluacion: number[][] = [
-	[-1,-1],[-1,0],[-1,1],	//	[x,x,x]		
+	[-1,-1],[-1,0],[-1,1],		//	[x,x,x]		
 	[0,-1],[0,1],			//	[x,o,x]	
 	[1,-1],[1,0],[1,1]		//	[x,x,x]
 ]
